@@ -5,3 +5,5 @@
 
 ####about me ? 要怎么写？让我想想...
 ![](https://github.com/willingseal/willingseal.github.io/blob/master/Image/2015:12:04/test.jpg)
+
+[Note-Blog](https://github.com/willingseal/willingseal.github.io/tree/master/Note-Blog)
