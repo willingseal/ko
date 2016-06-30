@@ -4,7 +4,7 @@ June 30, 2016
 ***
 
 ###SwiftLint 
-是一个用于强制检查 Swift 代码风格和规定的一个工具，基本上以 GitHub's Swift 代码风格指南为基础。
+是一个用于强制检查 Swift 代码风格和规定的一个工具，基本上以 [GitHub's Swift 代码风格指南](https://github.com/github/swift-style-guide)为基础。
 
 ####安装 swiftlint
 ```
