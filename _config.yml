@@ -1,0 +1,12 @@
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+url: http://blog.nswebfrog.com
+author: nswebfrog
+highlighter: rouge
+exclude: ["Rakefile", "CNAME", "README.md"]
+safe: false
+paginate: 15
+
+
+# Gems
+gems: [jekyll-paginate]
