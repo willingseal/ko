@@ -1,81 +1,53 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>willingseal by willingseal</title>
+---
+title: nswebfrog' Homepage
+layout: page
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>willingseal</h1>
-        <p>Nothing is impossible for a willing heart.</p>
-
-
-        <p class="view"><a href="https://github.com/willingseal">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
-<a id="والفشل-يؤدي-إلا-أنت-أكثر-كسول-سوف-الخوف-إلا-أن-يجعل-العالم-أكثر-بعدا" class="anchor" href="#%D9%88%D8%A7%D9%84%D9%81%D8%B4%D9%84-%D9%8A%D8%A4%D8%AF%D9%8A-%D8%A5%D9%84%D8%A7-%D8%A3%D9%86%D8%AA-%D8%A3%D9%83%D8%AB%D8%B1-%D9%83%D8%B3%D9%88%D9%84-%D8%B3%D9%88%D9%81-%D8%A7%D9%84%D8%AE%D9%88%D9%81-%D8%A5%D9%84%D8%A7-%D8%A3%D9%86-%D9%8A%D8%AC%D8%B9%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A3%D9%83%D8%AB%D8%B1-%D8%A8%D8%B9%D8%AF%D8%A7" aria-hidden="true"><span class="octicon octicon-link"></span></a>والفشل يؤدي إلا أنت أكثر كسول. سوف الخوف إلا أن يجعل العالم أكثر بعدا</h3>
-
-<ul>
-<li><em>You are the one</em></li>
-<li><em>사랑을 하고 싶은 걸</em></li>
-<li><em>그대 바라볼때면</em></li>
-<li><em>You are my destiny</em></li>
-<li><em>이제는 조금 더 내게 다가와</em></li>
-<li><em>Love is you</em></li>
-<li><em>그 모습 좋아 모든 걸 다 말해줄래</em></li>
-<li><em>사랑한다고 나뿐이라고 해줘</em></li>
-<li><em>바람에 날려 갑자기 온 듯한 사랑</em></li>
-<li><em>행복이 뭔지 알게 해 준</em></li>
-<li><em>그대는 내 Only One</em></li>
-<li><em>Show me the love</em></li>
-<li><em>and so I will tell you at this time</em></li>
-<li><em>내 귓가에 속삭여줄래 사랑한다고</em></li>
-<li><em>You are the one</em></li>
-<li><em>사랑을 하고 싶은 걸 그대 바라볼때면</em></li>
-<li><em>You are my destiny</em></li>
-<li><em>이제는 조금 더 내게 다가와</em></li>
-<li><em>Love is you</em></li>
-<li><em>그 모습 좋아 모든 걸 다 말해줄래</em></li>
-<li><em>사랑한다고 나뿐이라고 해줘</em></li>
-<li><em>Show me the love</em></li>
-<li><em>and so I will tell you at this time</em></li>
-<li><em>처음부터 느낌이 왔죠 사랑이라고</em></li>
-<li><em>You are the one</em></li>
-<li><em>사랑을 하고 싶은 걸 그대 바라볼때면</em></li>
-<li><em>You are my destiny</em></li>
-<li><em>이제는 조금 더 내게 다가와</em></li>
-<li><em>Love is you</em></li>
-<li><em>그 모습 좋아 모든 걸 다 말해줄래</em></li>
-<li><em>사랑한다고 나뿐이라고 해줘</em></li>
-<li><em>꿈이 아닐까 가끔은 두려워</em></li>
-<li><em>그대 나를 봐요 약속해줘요 우리 둘이라고</em></li>
-<li><em>You are the one</em></li>
-<li><em>Love is you</em></li>
-<li><em>그 모습 좋아 모든 걸 다 말해줄래</em></li>
-<li><em>사랑한다고 나뿐이라고 해줘</em></li>
+<ul class="listing">
+{% for post in paginator.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator">{{ y }}</li>
+  {% endif %}
+  <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
 </ul>
 
-<hr>
+<div id="post-pagination" class="paginator">
 
-<p><a href="https://github.com/willingseal/willingseal.github.io/blob/master/Note-Blog/20151204%20%20%20%20%20%20test.md">test_try</a>
-<a href="https://github.com/willingseal/willingseal.github.io/tree/master/Note-Blog">test_wiki</a></p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/"><前页</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}"><前页</a>
+    {% endif %}
+  {% else %}
+    <span class="previous disabled"><前页</span>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="next" href="/page{{paginator.next_page}}">后页></a>
+  {% else %}
+    <span class="next disabled" >后页></span>
+  {% endif %}
+  (共{{ paginator.total_posts }}篇)
+</div>
+
