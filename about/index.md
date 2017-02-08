@@ -6,19 +6,19 @@ comments: no
 
 Nothing is impossible for a willing heart.
 
+![image](/assets/images/2012-12-12-001.jpeg)
 
+![sheetDemo](/assets/images/sheetDemo_20131018.gif)
 
- iOS Developer（Objective -C／Swift）
+![image](/assets/images/2015-11-01-003.jpg)
+
+ iOS Developer（Objective-C / Swift）
 
 曾就职于 ENJOY，负责 ENJOY iOS 端开发
 
 Traveling
 
 不是工作狂，认真、负责、沟通交流、及时
-
-
-
-
 
 
 
@@ -34,10 +34,6 @@ twitter: [willingseal](https://twitter.com/willingseal)
 ----
 
 
-
-
-
-Nothing is impossible for a willing heart.
 
 有时候，我觉得自己很了解她
 
