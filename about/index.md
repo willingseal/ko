@@ -6,7 +6,7 @@ comments: no
 
 Nothing is impossible for a willing heart.
 
-![image](/assets/images/2012-12-12-001.jpeg)
+![image](/assets/images/2012-12-12-002.jpeg)
 
 <br/>
 
