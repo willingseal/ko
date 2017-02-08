@@ -8,7 +8,7 @@ Nothing is impossible for a willing heart.
 
 ![image](/assets/images/2012-12-12-001.jpeg)
 
- <br/><br/>
+<br/>
 
 iOS Developer（Objective-C / Swift）
 
