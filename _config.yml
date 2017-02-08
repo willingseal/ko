@@ -1,7 +1,7 @@
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-url: http://blog.nswebfrog.com
-author: nswebfrog
+url: https://willingseal.github.io
+author: willingseal
 highlighter: rouge
 exclude: ["Rakefile", "CNAME", "README.md"]
 safe: false
