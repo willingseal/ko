@@ -8,11 +8,9 @@ Nothing is impossible for a willing heart.
 
 ![image](/assets/images/2012-12-12-001.jpeg)
 
-![sheetDemo](/assets/images/sheetDemo_20131018.gif)
+ <br/><br/> <br/><br/>
 
-![image](/assets/images/2015-11-01-003.jpg)
-
- iOS Developer（Objective-C / Swift）
+iOS Developer（Objective-C / Swift）
 
 曾就职于 ENJOY，负责 ENJOY iOS 端开发
 
