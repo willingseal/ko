@@ -10,10 +10,10 @@ tags:
 ---
 
 
-###SwiftLint 
+### SwiftLint 
 是一个用于强制检查 Swift 代码风格和规定的一个工具，基本上以 [GitHub's Swift 代码风格指南](https://github.com/github/swift-style-guide)为基础。
 
-####安装 swiftlint
+### 安装 swiftlint
 ```
 ➜  ~ brew search swiftlint
 swiftlint
@@ -35,7 +35,7 @@ carthage    swiftlint
 0.10.0
 ```
 
-####更新swiftlint版本
+### 更新swiftlint版本
 - 查看brew版本号，更新brew版本
 - 查看安装的包列表，查看包是否需要更新
 - 更新某个包／全部更新
