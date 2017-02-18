@@ -16,25 +16,32 @@ tags:
 
 在安装Android Studio的时候先把Java第一个程序HelloWorld跑起来吧
 
+
 #### 安装java开发环境
 
 系统版本：macOS 10.12.3 
+
 
 ```
 ➜  ~ java -version
 No Java runtime present, requesting install.
 ```
+
 Mac上没有java，需要安装JDK。
-[前往JDK下载安装](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-![根据自己的系统下载对应的](/assets/images/2017-02-18-001.png)
+[前往JDK下载安装](http://www.oracle.com/technetwork/java/javase/downloads/index.html),根据自己的系统下载对应的
+
+![image](/assets/images/2017-02-18-001.png)
 
 看看安装好的java版本
+
 ```
 ➜  ~ java -version
 java version "1.8.0_121"
 Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
 ```
+
+---
 
 #### Java之HelloWorld
 
@@ -65,7 +72,8 @@ public class HelloWorld {
 Hello World
 ```
 
-![运行成功后多了一个HelloWorld.class文件](/assets/images/2017-02-18-002.png)
+运行成功后多了一个HelloWorld.class文件
+![image](/assets/images/2017-02-18-002.png)
 
 
 
