@@ -16,7 +16,7 @@ iOS Developer（Objective-C / Swift）
 
 Traveling
 
-不是工作狂，认真、负责、沟通交流、及时
+喜欢新鲜的事物，认真、负责、沟通交流、及时
 
 
 
@@ -36,3 +36,4 @@ twitter: [willingseal](https://twitter.com/willingseal)
 不乱于心 . 不困于情  .   不畏将来 . 不念过往  .   如此 . 安好 . 
 
  <br/>
+
