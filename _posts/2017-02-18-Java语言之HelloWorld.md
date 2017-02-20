@@ -27,6 +27,9 @@ tags:
 No Java runtime present, requesting install.
 ```
 
+JDK(Java Development Kit)包含了Java运行环境、Java工具和Java基础的类库。JDK是整个Java的核心，是学好Java的第一步，是开发和运行Java环境的基础，当用户要对Java程序进行编译的时候，必须先获得对应操作系统的JDK，否则将无法编译Java程序。（看看JDK的源码）
+
+
 Mac上没有java，需要安装JDK。
 [前往JDK下载安装](http://www.oracle.com/technetwork/java/javase/downloads/index.html),根据自己的系统下载对应的
 
