@@ -10,15 +10,6 @@ Nothing is impossible for a willing heart.
 
 <br/>
 
-iOS Developer（Objective-C / Swift）
-
-曾就职于 ENJOY，负责 ENJOY iOS 端开发
-
-Traveling
-
-喜欢新鲜的事物，认真、负责、沟通交流、及时
-
-
 
 ----
 
